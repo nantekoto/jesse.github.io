@@ -15,24 +15,26 @@
 <meta property="og:url" content="http://nantekoto.github.io/PY.html">
 <meta property="og:site_name" content="Jesse&#39;s blog">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://avatar.mixcm.com/github/nexmoe">
+<meta property="og:image" content="https://cravatar.cn/avatar/c7fd185f8c967dec20c29c75a40b9e09?s=500">
+<meta property="og:image" content="https://www.yansera.com/images/head/head.jpg">
+<meta property="og:image" content="https://godweiyang.com/medias/avatars/myzhihu.png">
 <meta property="article:published_time" content="2013-07-13T12:46:25.000Z">
-<meta property="article:modified_time" content="2022-11-28T10:23:28.439Z">
+<meta property="article:modified_time" content="2022-11-28T12:21:32.635Z">
 <meta property="article:author" content="TANG Sijie, Jesse">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://avatar.mixcm.com/github/nexmoe">
+<meta name="twitter:image" content="https://cravatar.cn/avatar/c7fd185f8c967dec20c29c75a40b9e09?s=500">
     
 <link rel="stylesheet" href="/lib/fancybox/fancybox.css">
 <link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
 
-    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1669636503311">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1669640029412">
     
-    <link rel="stylesheet" href="/css/style.css?v=1669636503311">
+    <link rel="stylesheet" href="/css/style.css?v=1669640029412">
 
     
         
-            <link rel="stylesheet" href="/custom.css?v=1669636503311">
+            <link rel="stylesheet" href="/custom.css?v=1669640029412">
         
     
 <meta name="generator" content="Hexo 6.3.0"></head>
@@ -98,7 +100,7 @@
         <div class="nexmoe-widget-wrap">
     <div class="nexmoe-widget nexmoe-search">
          
-            <form id="search_form" action_e="https://cn.bing.com/search?q=site:nexmoe.com" onsubmit="return search();">
+            <form id="search_form" action_e="https://www.google.com/search?q=site:nantekoto.github.io" onsubmit="return search();">
                 <label><input id="search_value" name="q" type="search" placeholder="Search"></label>
             </form>
          
@@ -114,20 +116,7 @@
 	<div class="nexmoe-widget nexmoe-social">
 		<a
 			class="mdui-ripple"
-			href="https://jq.qq.com/?_wv=1027&k=5CfKHun"
-			target="_blank"
-			mdui-tooltip="{content: 'QQ群'}"
-			style="
-				color: rgb(249, 174, 8);
-				background-color: rgba(249, 174, 8, .1);
-			"
-		>
-			<i
-				class="nexmoefont icon-QQ"
-			></i> </a
-		><a
-			class="mdui-ripple"
-			href="https://space.bilibili.com/20238211"
+			href="https://space.bilibili.com/3341203"
 			target="_blank"
 			mdui-tooltip="{content: '哔哩哔哩'}"
 			style="
@@ -140,7 +129,7 @@
 			></i> </a
 		><a
 			class="mdui-ripple"
-			href="https://github.com/nexmoe/"
+			href="https://github.com/nantekoto/"
 			target="_blank"
 			mdui-tooltip="{content: 'GitHub'}"
 			style="
@@ -153,7 +142,7 @@
 			></i> </a
 		><a
 			class="mdui-ripple"
-			href="https://www.zhihu.com/people/nexmoe"
+			href="https://www.zhihu.com/people/jesse-towne"
 			target="_blank"
 			mdui-tooltip="{content: '知乎'}"
 			style="
@@ -166,7 +155,7 @@
 			></i> </a
 		><a
 			class="mdui-ripple"
-			href="https://twitter.com/nexmoe"
+			href="https://twitter.com/jessetowne96"
 			target="_blank"
 			mdui-tooltip="{content: 'Twitter'}"
 			style="
@@ -176,19 +165,6 @@
 		>
 			<i
 				class="nexmoefont icon-twitter"
-			></i> </a
-		><a
-			class="mdui-ripple"
-			href="https://nexmoe.com/atom.xml"
-			target="_blank"
-			mdui-tooltip="{content: 'RSS'}"
-			style="
-				color: rgb(247, 132, 34);
-				background-color: rgba(247, 132, 34, .1);
-			"
-		>
-			<i
-				class="nexmoefont icon-rss"
 			></i> </a
 		>
 	</div>
@@ -250,6 +226,48 @@
 
     
         
+        <!-- 一言 -->
+<div class="nexmoe-widget-wrap">
+  <h3 class="nexmoe-widget-title">
+    一言
+  </h3>
+  <div class="nexmoe-widget">
+    <ul class="hitokoto-box">
+      <li id="hitokoto_text_parent" class="hitokoto-text" hitokotoCategory="a">
+        <a href="#" id="hitokoto_text">
+          
+        </a>
+        <a href="#" id="hitokoto_error_text" style="display: none;">
+          
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<script>
+  let hitokotoText = document.getElementById('hitokoto_text')
+  let hitokotoErroText = document.getElementById('hitokoto_error_text')
+  let hitokotoCategory = document.getElementById('hitokoto_text_parent').getAttribute('hitokotoCategory')
+  window.onload = function () {
+    let url = 'https://v1.hitokoto.cn'
+    if (hitokotoCategory) {
+      url += '?c=' + hitokotoCategory
+    }
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        hitokotoText.innerText = "「 " + data.hitokoto + " 」 from " + data.from
+        hitokotoText.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+      })
+      .catch((reason) => {
+        console.error(11, reason)
+        hitokotoText.style.display = 'none'
+        hitokotoErroText.style.display = 'block'
+      })
+  }
+</script>
+    
         
         
   <div class="nexmoe-widget-wrap">
@@ -301,13 +319,15 @@
             <div class="nexmoe-post">
 	<article class="nexmoe-py">
 		<ul>
-<li><a target="_blank" rel="noopener" href="https://nexmoe.com/" title="折影轻梦"><img onerror="imgOnError(this);" data-fancybox="gallery" src="https://avatar.mixcm.com/github/nexmoe" alt="折影轻梦" data-caption="折影轻梦" loading="lazy"></a></li>
+<li><a target="_blank" rel="noopener" href="https://nexmoe.com/" title="折影轻梦"><img onerror="imgOnError(this);" data-fancybox="gallery" src="https://cravatar.cn/avatar/c7fd185f8c967dec20c29c75a40b9e09?s=500" alt="折影轻梦" data-caption="折影轻梦" loading="lazy"></a></li>
+<li><a target="_blank" rel="noopener" href="https://www.yansera.com/" title="Yansera"><img onerror="imgOnError(this);" data-fancybox="gallery" src="https://www.yansera.com/images/head/head.jpg" alt="Yansera" data-caption="Yansera" loading="lazy"></a></li>
+<li><a target="_blank" rel="noopener" href="https://godweiyang.com/" title="韦阳"><img onerror="imgOnError(this);" data-fancybox="gallery" src="https://godweiyang.com/medias/avatars/myzhihu.png" alt="韦阳" data-caption="韦阳" loading="lazy"></a></li>
 </ul>
 
 	</article>
 	
         <div class="nexmoe-post-footer">
-            请在你的配置文件中设置评论框插槽
+            
         </div>
     
 </div>
@@ -353,7 +373,7 @@
 
  
 
-<script async src="/js/app.js?v=1669636503313"></script>
+<script async src="/js/app.js?v=1669640029413"></script>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058306854838448" crossorigin="anonymous"></script>
 
