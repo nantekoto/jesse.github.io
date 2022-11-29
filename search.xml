@@ -4,53 +4,27 @@
   
     
     <entry>
-      <title>又一城</title>
-      <link href="/2022/11/28/%E5%8F%88%E4%B8%80%E5%9F%8E/"/>
-      <url>/2022/11/28/%E5%8F%88%E4%B8%80%E5%9F%8E/</url>
+      <title>はじまるよ~博客搭建日志 1</title>
+      <link href="/2022/11/26/%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8B%E3%82%88/"/>
+      <url>/2022/11/26/%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8B%E3%82%88/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天的又一城非常热闹，虽然我没去</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天我平泽唯就要给你<a href="https://www.bilibili.com/bangumi/play/ep21265">一砣儿</a></p><span id="more"></span><!-- 简单示例 (id, server, type)  -->    <div id="aplayer-CcpIcsgv" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2420303" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><h2 id="はじまるよ"><a href="#はじまるよ" class="headerlink" title="はじまるよ~"></a>はじまるよ~</h2><p>前两天跟<a href="https://www.yansera.com/">Yansera</a>聊天的时候他突然问有没有主页要互链。</p><p>嗯做cs的确实都有点闲得慌，没有个人主页都要处于鄙视链最下端了。老早之前确实考虑过建一个，但一直没有什么动力，移动互联网时代真的会有人访问个人网站吗（悲）。</p><p>我也闲得慌，没什么目的，搭了这么个博客。</p><h2 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h2><p>博客框架是<a href="https://hexo.io/">hexo</a>，也是很久以前就听说过，但是一直没有尝试。真用起来确实是很容易上手的，就是官方文档写得很烂。</p><p>博客是部署在github的<a href="https://github.com/nantekoto/nantekoto.github.io">个人仓库</a>里面，这次为了方便操作又把Git装上了，遥想当年注册github的时候就装过，但一想到又不是专门做开发的哪有那么多代码要管理，不禁悲从中来，隔日就把Git卸载掉了。</p><p>主题是<a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe">nexmoe</a>，简洁漂亮，很适合我们这种二次元。开发者还专门写了使用文档，上手很快没怎么卡壳（感恩。</p><p>不过作为纯外行要熟悉js和html也还是花不少时间，代码只能连蒙带猜，项目结构不甚清楚，说不定之后还需要系统学习下，现在就暂且用着吧。</p><p>虽然已经可以开始po文了，但还是有一些细枝末节的问题比较纠结，留待后续解决。</p><h2 id="Task-list"><a href="#Task-list" class="headerlink" title="Task list"></a>Task list</h2><ul><li><input disabled="" type="checkbox"> 代码高亮：有点问题，暂且蒙古里（虽然我并一定会写很多代码</li><li><input disabled="" type="checkbox"> social模块：<ul><li><input disabled="" type="checkbox"> 这个主题我唯一想换掉的就是左下角github的图标，太憨憨了（文档提供了方法</li><li><input disabled="" type="checkbox"> 一些额外的个人链接想要加上，要摸索下</li></ul></li><li><input disabled="" type="checkbox"> 访问统计：在加了在加了，虽然只有自己刷刷数据（悲）。</li><li><input disabled="" type="checkbox"> 本地搜索：可能会加？也可能懒得弄了</li><li><input disabled="" type="checkbox"> 网站索引：要去google和baidu上登记一下（争取一点微弱的曝光量</li><li><input disabled="" type="checkbox"> 关于博主：可能这个模块才是比较重要的吧，有点懒，想写成CV的样子又觉得该随意点</li><li><input disabled="" type="checkbox"> 个人域名：又要花钱，花钱的事最后再说</li><li><input disabled="" type="checkbox"> Latex支持：latex公式写着很有意思，虽然我肯定不会在博客写，但说不定会装上</li><li><input disabled="" type="checkbox"> 评论插件：感觉都不好用，可能不会装</li></ul><p>暂且就这样，还需要再多花时间，之后再说啦~<em>じあ～またね</em></p><div align="center">    <img src="https://syuwafriends.com/wp-content/uploads/2020/02/1df58ad3593d684b88320b04b7059fc6.png"    alt="挥挥"></img></div>]]></content>
       
       
       <categories>
           
-          <category> 心血来潮 </category>
+          <category> 博客搭建 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 香港 </tag>
+            <tag> 碎碎念 </tag>
             
-            <tag> Hong Kong </tag>
+            <tag> 前端 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>はじまるよ</title>
-      <link href="/2022/11/26/%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8B%E3%82%88/"/>
-      <url>/2022/11/26/%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8B%E3%82%88/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><!-- 简单示例 (id, server, type)  -->    <div id="aplayer-orHIOHKx" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="28151024" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><!-- 进阶示例 -->    <div id="aplayer-PvCCWlCY" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="28151024" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div><p>你好谢谢小笼包再见</p><h2 id="本文啥也没有"><a href="#本文啥也没有" class="headerlink" title="本文啥也没有"></a>本文啥也没有</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-none"><code class="language-none">$ hexo new &quot;My New Post&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-none"><code class="language-none">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-none"><code class="language-none">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-none"><code class="language-none">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2022/11/26/hello-world/"/>
-      <url>/2022/11/26/hello-world/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-none"><code class="language-none">$ hexo new &quot;My New Post&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-none"><code class="language-none">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-none"><code class="language-none">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-none"><code class="language-none">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
       
     </entry>
     
