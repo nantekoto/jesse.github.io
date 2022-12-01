@@ -31,7 +31,7 @@
 <meta property="og:image" content="http://nantekoto.github.io/%E6%9D%82%E5%9B%BE/1669792376204.jpg">
 <meta property="og:image" content="https://tskun.com/wp-content/uploads/2018/07/byebye_girl.png">
 <meta property="article:published_time" content="2022-12-01T06:02:20.000Z">
-<meta property="article:modified_time" content="2022-12-01T09:53:33.909Z">
+<meta property="article:modified_time" content="2022-12-01T10:24:12.461Z">
 <meta property="article:author" content="TANG Sijie, Jesse">
 <meta property="article:tag" content="碎碎念">
 <meta property="article:tag" content="前端">
@@ -42,15 +42,15 @@
 <link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
 
-    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1669888432705">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1669890287494">
     
         <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3800417_75hugox4na8.css">
     
-    <link rel="stylesheet" href="/css/style.css?v=1669888432705">
+    <link rel="stylesheet" href="/css/style.css?v=1669890287494">
 
     
         
-            <link rel="stylesheet" href="/custom.css?v=1669888432705">
+            <link rel="stylesheet" href="/custom.css?v=1669890287494">
         
     
 <meta name="generator" content="Hexo 6.3.0"><link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
@@ -453,8 +453,8 @@
             <a class="nexmoefont icon-appstore-fill -link" href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">博客搭建</a>
         
         
-    <a><i class="nexmoefont icon-areachart"></i>约715字</a>
-    <a><i class="nexmoefont icon-time-circle-fill"></i>预计需要2分钟</a>
+    <a><i class="nexmoefont icon-areachart"></i>约755字</a>
+    <a><i class="nexmoefont icon-time-circle-fill"></i>预计需要3分钟</a>
 
     </div>
     
@@ -469,7 +469,7 @@
 
 <!-- 简单示例 (id, server, type)  -->
 
-    <div id="aplayer-JINYhYmd" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-AJnJDrPu" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="2420303" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>
 
@@ -484,7 +484,9 @@
 <p>函数放在代码最后面就行</p>
 <figure class="highlight reasonml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><code class="hljs reasonml">&lt;script language=javascript&gt;<br>    <span class="hljs-keyword">function</span> site<span class="hljs-constructor">Time()</span> &#123;<br>        window.set<span class="hljs-constructor">Timeout(<span class="hljs-string">&quot;siteTime()&quot;</span>, 1000)</span>;<br>        var days = <span class="hljs-number">1000</span><span class="hljs-operator"> * </span><span class="hljs-number">60</span><span class="hljs-operator"> * </span><span class="hljs-number">60</span><span class="hljs-operator"> * </span><span class="hljs-number">24</span>;<br>        var today = <span class="hljs-keyword">new</span> <span class="hljs-constructor">Date()</span>;<br>        var todayYear = today.get<span class="hljs-constructor">FullYear()</span>;<br>        var todayMonth = today.get<span class="hljs-constructor">Month()</span> + <span class="hljs-number">1</span>;<br>        var todayDate = today.get<span class="hljs-constructor">Date()</span>;<br>        var todayHour = today.get<span class="hljs-constructor">Hours()</span>;<br>        var todayMinute = today.get<span class="hljs-constructor">Minutes()</span>;<br>        var todaySecond = today.get<span class="hljs-constructor">Seconds()</span>;<br>        var t1 = Date.<span class="hljs-constructor">UTC(2022, 11, 26, 13, 25, 22)</span>; <span class="hljs-comment">//对应北京时间2022-11-26 21:25:22</span><br>        var t2 = Date.<span class="hljs-constructor">UTC(<span class="hljs-params">todayYear</span>, <span class="hljs-params">todayMonth</span>, <span class="hljs-params">todayDate</span>, <span class="hljs-params">todayHour</span>, <span class="hljs-params">todayMinute</span>, <span class="hljs-params">todaySecond</span>)</span>;<br>        var diff = t2 - t1;<br>        var diffDays = <span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">Math</span>.</span></span>floor(diff<span class="hljs-operator"> / </span>days);<br>        document.get<span class="hljs-constructor">ElementById(<span class="hljs-string">&quot;sitetime&quot;</span>)</span>.innerHTML = diffDays + <span class="hljs-string">&quot; days traveling&quot;</span>;<br>    &#125;<br>    site<span class="hljs-constructor">Time()</span>;<br>&lt;/script&gt;<br></code></pre></td></tr></table></figure>
 <h2 id="评论系统"><a href="#评论系统" class="headerlink" title="评论系统"></a>评论系统</h2><p>想找一个不用登录就能用的，只有valine，但是样式实在是太丑了。基于github的又只能github登录，矮子里面拔将军选了disqus。<br>主题的文档里评论接口还是<code>comment</code>，最新版本已经改成<code>slotComment</code>了，一样配置貌似就不能用了？暂且继续蒙古里。</p>
-<h2 id="访问统计"><a href="#访问统计" class="headerlink" title="访问统计"></a>访问统计</h2><p>这个接口也一样，貌似在新版本里被废弃了，所以尝试在<code>\layout\layout.ejs</code>的<code>&lt;head&gt;</code>后面直接添加google跟踪代码，试试能不能行，以及百度</p>
+<h2 id="访问统计"><a href="#访问统计" class="headerlink" title="访问统计"></a>访问统计</h2><p>这个接口也一样，貌似在新版本里被废弃了，所以尝试在<code>\layout\layout.ejs</code>的<code>&lt;head&gt;</code>后面直接添加google跟踪代码，测试有效。</p>
+<p>并且通过google analytics认证的网站会同时被google索引，不用再添加认证。</p>
+<p>百度只添加了索引的代码，同样的位置，也成功被索引。</p>
 <h2 id="Task-list"><a href="#Task-list" class="headerlink" title="Task list"></a>Task list</h2><ul>
 <li><input checked="" disabled="" type="checkbox"> <del>代码高亮：有点问题，暂且蒙古里（虽然我并一定会写很多代码</del><ul>
 <li><input checked="" disabled="" type="checkbox"> <del>首行缩进</del></li>
@@ -496,9 +498,9 @@
 </ul>
 </li>
 <li><input checked="" disabled="" type="checkbox"> <del>建站时间</del></li>
-<li><input disabled="" type="checkbox"> 访问统计：在加了在加了，虽然只有自己刷刷数据（悲）。</li>
+<li><input checked="" disabled="" type="checkbox"> 网站索引：要去google和baidu上登记一下（争取一点微弱的曝光量</li>
+<li><input checked="" disabled="" type="checkbox"> 访问统计：在加了在加了，虽然只有自己刷刷数据（悲）。</li>
 <li><input disabled="" type="checkbox"> 本地搜索：可能会加？也可能懒得弄了</li>
-<li><input disabled="" type="checkbox"> 网站索引：要去google和baidu上登记一下（争取一点微弱的曝光量</li>
 <li><input disabled="" type="checkbox"> 关于博主：可能这个模块才是比较重要的吧，有点懒，想写成CV的样子又觉得该随意点</li>
 <li><input disabled="" type="checkbox"> 个人域名：又要花钱，花钱的事最后再说</li>
 <li><input disabled="" type="checkbox"> Latex支持：latex公式写着很有意思，虽然我肯定不会在博客写，但说不定会装上</li>
@@ -590,7 +592,7 @@
 
  
 
-<script async src="/js/app.js?v=1669888432710"></script>
+<script async src="/js/app.js?v=1669890287501"></script>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058306854838448" crossorigin="anonymous"></script>
 
