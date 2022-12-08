@@ -42,17 +42,26 @@
 <link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
 
-    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1669890527167">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1670495653565">
     
         <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3800417_75hugox4na8.css">
     
-    <link rel="stylesheet" href="/css/style.css?v=1669890527168">
+    <link rel="stylesheet" href="/css/style.css?v=1670495653565">
 
     
         
-            <link rel="stylesheet" href="/custom.css?v=1669890527168">
+            <link rel="stylesheet" href="/custom.css?v=1670495653565">
         
     
+	
+	  <!-- waline样式 -->
+	<link
+		rel="stylesheet"
+		href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+	/>
+	<!-- waline样式 -->
+	
+	
 <meta name="generator" content="Hexo 6.3.0"><link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
 <script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
 <script src="\assets\js\Meting.min.js" class="meting-script-marker"></script>
@@ -88,7 +97,7 @@
         </a>
     </div>
     <div class="nexmoe-count">
-        <div><span>Articles</span>3</div>
+        <div><span>Articles</span>4</div>
         <div><span>Tags</span>2</div>
         <div><span>Categories</span>1</div>
     </div>
@@ -269,7 +278,7 @@
 
         <li class="category-list-item">
           <a class="category-list-link" href="/categories/博客搭建/">博客搭建</a>
-          <span class="category-list-count">3</span>
+          <span class="category-list-count">4</span>
         </li>
 
         
@@ -354,7 +363,7 @@
   <div class="nexmoe-widget-wrap">
     <h3 class="nexmoe-widget-title">Archive</h3>
     <div class="nexmoe-widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022</a><span class="archive-list-count">3</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022</a><span class="archive-list-count">4</span></li></ul>
     </div>
   </div>
 
@@ -367,6 +376,10 @@
     <h3 class="nexmoe-widget-title">Recent Posts</h3>
     <div class="nexmoe-widget">
       <ul>
+        
+          <li>
+            <a href="/2022/12/08/%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8B%E3%82%88-4/">はじまるよ~博客搭建日志 4</a>
+          </li>
         
           <li>
             <a href="/2022/12/01/%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8B%E3%82%88-3/">はじまるよ~博客搭建日志 3</a>
@@ -390,6 +403,14 @@
 
     <div class="nexmoe-copyright">
 	
+		<span id="busuanzi_container_site_pv"> </br> 
+			<span id="busuanzi_value_site_pv"></span> views  
+		</span>
+		
+		<span id="busuanzi_container_site_uv">
+			<span id="busuanzi_value_site_uv"></span> visitors </br> 
+		</span>
+	
 		<!-- 新增建站时间 -->
 		<span id="sitetime"></span></br> </br> 
 	
@@ -403,6 +424,10 @@
 	
 
 </div><!-- .nexmoe-drawer -->
+
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
 
 <script language=javascript>
     function siteTime() {
@@ -539,10 +564,18 @@
 </div>
 
   
-      <div class="nexmoe-post-footer">
-          disqus
-      </div>
+		<div id="waline"></div>
+		<script type="module">
+			import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+
+			init({
+				el: '#waline',
+				serverURL: 'https://waline-comment-dusky.vercel.app/',
+			});
+		</script> 
   
+  
+	
 </div>
             <div class="nexmoe-post-right">
               <div class="nexmoe-fixed">
@@ -592,9 +625,11 @@
 
  
 
-<script async src="/js/app.js?v=1669890527172"></script>
+<script async src="/js/app.js?v=1670495653568"></script>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058306854838448" crossorigin="anonymous"></script>
+
+
 
 </body>
 
